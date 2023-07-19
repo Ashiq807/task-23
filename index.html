@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-transform: capitalize;
+        }
+        .wrapper{
+            position: relative;
+            width: 100%;
+            height: 700px;
+            overflow: hidden;
+        }
+        .wrapper:before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.6;
+            background: url("photos/image1.jpg");
+        }
+        .content{
+            position: relative;
+        }
+        h1{
+            font-size: 60px;
+        }
+        p{
+            width: 560px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <h1 style="text-align: center;margin-top: 50px;">earth and mars information</h1>
+            <h2 style="text-align: left;">earth</h2>
+            <p>Earth is the third planet from the Sun and the only place known in the universe where life has originated and found habitability. While Earth may not contain the largest volumes of water in the Solar System, only Earth sustains liquid surface water, extending over 70.8% of the Earth with its ocean, making Earth an ocean world. Earth's polar regions currently retain most of all other water with large sheets of ice covering ocean and land, dwarfing Earth's groundwater, lakes, rivers and atmospheric water. Land, consisting of continents and islands,</p>
+            <a href="earth.html">[more informations about earth]</a>
+            <h2 style="text-align: left;margin-top: 50px;">mars</h2>
+            <p>Mars is the fourth planet from the Sun and the third largest and massive terrestrial object in the Solar System. Mars has a thin atmosphere and a crust primarily composed of elements similar to Earth's crust, as well as a core made of iron and nickel. Mars has surface features such as impact craters, valleys, dunes, and polar ice caps. Mars has two small, irregularly shaped moons, Phobos and Deimos.</p>
+            <a href="mars.html">[more informations about mars]</a>
+        </div>
+    </div>
+</body>
+</html>
